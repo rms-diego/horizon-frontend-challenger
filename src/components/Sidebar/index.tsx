@@ -10,6 +10,8 @@ const categories = [
   "Bossa Nova",
   "Pop",
   "R&B",
+  "Reggae",
+  "Electronic",
 ];
 
 export function Sidebar() {
