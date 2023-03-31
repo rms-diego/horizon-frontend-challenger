@@ -38,7 +38,9 @@ export function Sidebar() {
 
       <div className={styles.categoriesList}>
         {categories.map((category) => (
-          <p className={styles.notAllowed}>{category}</p>
+          <p key={category} className={styles.notAllowed}>
+            {category}
+          </p>
         ))}
       </div>
     </aside>
