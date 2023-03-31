@@ -1,0 +1,74 @@
+.asideContainer {
+  background-color: black;
+  width: 11rem;
+  height: 100vh;
+  padding: 1rem 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .spotifyLogo {
+    margin-bottom: 1.5rem;
+
+    &:hover {
+      opacity: 0.9;
+      cursor: pointer;
+      transition: 200ms;
+    }
+  }
+}
+
+.asideNavigation {
+  width: 100%;
+  padding-right: 0.25rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  p {
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #b2b2b2;
+
+    &:hover {
+      opacity: 0.9;
+      transition: 200ms;
+    }
+  }
+
+  hr {
+    width: 100%;
+    margin: 1rem 0;
+  }
+}
+
+.selected {
+  background-color: #333333;
+  color: white !important;
+  cursor: pointer;
+}
+
+.notAllowed {
+  cursor: not-allowed;
+}
+
+.categoriesList {
+  align-self: flex-start;
+
+  p {
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #b2b2b2;
+
+    &:hover {
+      opacity: 0.9;
+      transition: 200ms;
+    }
+  }
+}
